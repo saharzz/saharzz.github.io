@@ -1,36 +1,4 @@
-.about-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.profile-photo {
-    width: 300px;
-    height: 300px;
-    border-radius: 0;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
-.about-text {
-    flex: 1;
-}
-
-@media (max-width: 768px) {
-    .about-header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .profile-photo {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -121,6 +89,27 @@ h2 {
     padding-bottom: 10px;
 }
 
+/* About Page - Profile Photo */
+.about-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 0;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+}
+
+/* Projects */
 .project {
     margin-bottom: 30px;
     padding: 20px;
@@ -141,6 +130,7 @@ h2 {
     text-decoration: underline;
 }
 
+/* Contact */
 .contact-info {
     line-height: 2;
 }
@@ -176,5 +166,16 @@ footer {
     
     h1 {
         font-size: 2em;
+    }
+    
+    .about-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .profile-photo {
+        width: 250px;
+        height: 250px;
     }
 }
