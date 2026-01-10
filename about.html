@@ -19,11 +19,15 @@
             </ul>
         </div>
     </nav>
-
     <main>
         <section>
-            <h1>About Me</h1>
-            <p>Your background, education, experience, and interests.</p>
+            <div class="about-header">
+                <img src="profile.jpg" alt="Sahar Zangeneh" class="profile-photo">
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>Your background, education, experience, and interests.</p>
+                </div>
+            </div>
             
             <h2>Education</h2>
             <p>PhD details and other degrees.</p>
@@ -33,9 +37,12 @@
             
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 Sahar Zangeneh. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Sahar Zangeneh. All rights reserved.</p>
     </footer>
+    
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
