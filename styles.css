@@ -78,8 +78,8 @@ main {
 }
 
 .profile-photo {
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -90,7 +90,7 @@ main {
 }
 
 .main-content p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .main-content h1 {
