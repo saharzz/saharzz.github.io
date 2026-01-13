@@ -139,9 +139,7 @@ footer {
 .connect-section {
     margin-top: 4rem;
     padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    text-align: right;
 }
 
 .connect-section h2 {
@@ -149,7 +147,7 @@ footer {
 }
 
 .social-links {
-    display: flex;
+    display: inline-flex;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -167,3 +165,4 @@ footer {
     background: #333;
     color: white;
 }
+
