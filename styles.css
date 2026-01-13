@@ -65,8 +65,8 @@ main {
     flex-shrink: 0;
 }
 .profile-photo {
-    width: 500px;
-    height: 750px;
+    width: 400px;
+    height: 550px;
     object-fit: cover;
     border-radius: 8px;
 }
