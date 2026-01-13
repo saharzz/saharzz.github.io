@@ -137,9 +137,11 @@ footer {
 
 /* Connect section */
 .connect-section {
-    text-align: right;
     margin-top: 4rem;
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .connect-section h2 {
@@ -149,7 +151,6 @@ footer {
 .social-links {
     display: flex;
     gap: 2rem;
-    justify-content: flex-end;
     flex-wrap: wrap;
 }
 
