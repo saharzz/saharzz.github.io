@@ -79,7 +79,7 @@ main {
 
 .profile-photo {
     width: 250px;
-    height: 250px;
+    height: 400px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -87,6 +87,10 @@ main {
 /* Main text content */
 .main-content {
     flex: 1;
+}
+
+.main-content p {
+    margin-bottom: 2rem;
 }
 
 .main-content h1 {
