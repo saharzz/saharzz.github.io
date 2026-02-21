@@ -182,3 +182,14 @@ footer {
     color: #0077b5; /* LinkedIn blue */
 }
 
+.wordcloud-banner {
+    height: auto;
+    overflow: hidden;
+}
+.wordcloud-banner img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
