@@ -193,3 +193,6 @@ footer {
     margin: 0 auto;
 }
 
+.project p {
+    margin-bottom: 1rem;
+}
