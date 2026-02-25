@@ -66,8 +66,8 @@ main {
 }
 
 .profile-photo {
-    width: 275px;
-    height: 375px;
+    width: 250px;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -117,7 +117,7 @@ footer {
 }
 
 .education-section {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     max-width: 100%;
 }
 
@@ -137,7 +137,7 @@ footer {
 }
 
 .experience-section {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     max-width: 100%;
 }
 
