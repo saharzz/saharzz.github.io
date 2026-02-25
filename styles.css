@@ -66,8 +66,8 @@ main {
 }
 
 .profile-photo {
-    width: 270px;
-    height: 400px;
+    width: 275px;
+    height: 375px;
     object-fit: cover;
     border-radius: 8px;
 }
